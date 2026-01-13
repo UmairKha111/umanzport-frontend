@@ -66,7 +66,7 @@ export default function Hero() {
             {/* 🔘 CTA BUTTONS */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
-                href="/portfolio"
+                href="/blog"
                 className="px-8 py-4 bg-[#F58220] text-white font-semibold hover:opacity-90 transition text-center"
               >
                 View Our Blogs

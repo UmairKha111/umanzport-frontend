@@ -93,8 +93,8 @@ export default function Navbar() {
                 )}
               </AnimatePresence>
             </div>
-
-            <Link href="/portfolio" className="nav-underline text-gray-800 hover:text-black">
+{/* portfolio */}
+            <Link href="/blog" className="nav-underline text-gray-800 hover:text-black">
               Blogs
             </Link>
 

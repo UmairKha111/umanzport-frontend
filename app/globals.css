@@ -28,3 +28,16 @@ canvas {
 .nav-underline:hover::after {
   transform: translateX(-50%) scaleX(1);
 }
+/* ===== BLOG TYPOGRAPHY FIX (UMANZ) ===== */
+.prose h2 {
+  color: #ff7809 !important;
+  font-weight: 800;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose hr {
+  margin: 3rem 0 !important;
+  border-color: #d1d5db !important;
+}
+/* ===== END BLOG TYPOGRAPHY FIX ===== */
