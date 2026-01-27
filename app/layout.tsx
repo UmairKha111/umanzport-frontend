@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Your Agency Name | Full Stack & Digital Solutions",
+  title: "Umanz Technology | Web Development & Digital Solutions",
   description:
     "We build high-performance websites, full-stack apps, and digital brands.",
 };
