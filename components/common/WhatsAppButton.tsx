@@ -12,7 +12,7 @@ export default function WhatsAppButton() {
       className="fixed bottom-6 right-6 z-[9999]"
     >
       <Link
-        href="https://wa.me/7052568655?text=Hi%20Umanz%20Technology,%20I%20want%20to%20discuss%20a%20project"
+        href="https://wa.me/6391157751?text=Hi%20Umanz%20Technology,%20I%20want%20to%20discuss%20a%20project"
         target="_blank"
         aria-label="Chat on WhatsApp"
         className="flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] shadow-2xl hover:scale-110 transition-transform"
