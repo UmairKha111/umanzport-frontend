@@ -14,9 +14,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Umanz Technology | Web Development & Digital Solutions",
+  title: "Umanz Technology | Web Development & Digital Solutions Company",
   description:
-    "We build high-performance websites, full-stack apps, and digital brands.",
+    "Umanz Technology is a web development and digital solutions company offering websites, apps, and digital marketing services.",
 };
 
 export default function RootLayout({
