@@ -72,7 +72,7 @@ export default function Footer() {
           <h4 className="text-white font-semibold mb-4">Contact</h4>
           <ul className="space-y-2 text-sm text-gray-400">
             <li>umanztechnology@gmail.com</li>
-            <li>+91 7052568655</li>
+            <li>+91 6391157751</li>
             <li>IIM Road, Lucknow, Uttar Pradesh, India</li>
           </ul>
         </div>

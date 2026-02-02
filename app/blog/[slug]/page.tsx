@@ -44,7 +44,7 @@ export default async function BlogDetail({
           <img
             src={blog.metadata.cover}
             alt={blog.metadata.title}
-            className="w-full h-[340px] sm:h-[360px] object-cover "
+            className="w-full h-[840px] sm:h-[660px] object-cover "
           />
         </div>
       )}

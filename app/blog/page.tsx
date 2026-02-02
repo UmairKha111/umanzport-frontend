@@ -3,15 +3,15 @@ import { getAllBlogs } from "@/lib/blog";
 
 export default function BlogPage() {
   const blogs = getAllBlogs();
+  const newestBlogSlug = blogs[0]?.slug; // 🔥 latest blog
 
   return (
-   <main className="max-w-7xl mx-auto px-4 sm:px-6 pt-32 pb-20">
-
+    <main className="max-w-7xl mx-auto px-4 sm:px-6 pt-32 pb-20">
       
       {/* Page Heading */}
       <div className="mb-14">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-          Insights & <span className="text-[#F58220]">Articles</span> 
+          Insights & <span className="text-[#F58220]">Articles</span>
         </h1>
         <p className="mt-4 text-lg text-gray-600 max-w-2xl">
           Ideas, processes, and case studies from the team at Umanz Technology.
@@ -29,20 +29,30 @@ export default function BlogPage() {
           <Link
             key={blog.slug}
             href={`/blog/${blog.slug}`}
-            className="group flex flex-col justify-between  border border-gray-200 bg-white p-6 min-h-[260px] transition-all hover:-translate-y-1 hover:shadow-xl"
->
-            <span className="text-sm font-medium text-gray-500">
+            className="group flex flex-col justify-between border border-gray-200 bg-white p-6 min-h-[260px] transition-all hover:-translate-y-1 hover:shadow-xl"
+          >
+            {/* Category + NEW TAG */}
+            <span className="text-sm font-medium text-gray-500 flex items-center gap-2">
               {blog.category}
+
+              {blog.slug === newestBlogSlug && (
+                <span className="px-2 py-0.5 text-xs font-semibold bg-[#F58220] text-white rounded">
+                  NEW
+                </span>
+              )}
             </span>
 
+            {/* Title */}
             <h2 className="mt-3 text-xl text-[#F58220] font-semibold leading-snug group-hover:underline">
               {blog.title}
             </h2>
 
+            {/* Description */}
             <p className="mt-3 text-gray-600 text-sm leading-relaxed">
               {blog.description}
             </p>
 
+            {/* Meta */}
             <div className="mt-6 text-sm text-gray-400">
               {blog.date} · {blog.author}
             </div>

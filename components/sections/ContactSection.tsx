@@ -135,7 +135,7 @@ export default function ContactSection() {
 
             <div className="border-l-4 border-[#fd9c52] pl-5">
               <p className="font-semibold text-black">Phone</p>
-              <p className="text-gray-600">+91 7052568655</p>
+              <p className="text-gray-600">+91 6391157751</p>
             </div>
 
             <div className="border-l-4 border-[#fd9c52] pl-5">
