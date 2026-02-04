@@ -170,7 +170,8 @@ export default function Navbar() {
                   ))}
                 </div>
 
-                <Link href="/portfolio" onClick={() => setMobileOpen(false)}>Blogs</Link>
+                {/* <Link href="/portfolio" onClick={() => setMobileOpen(false)}>Blogs</Link> */}
+                <Link href="/blog" onClick={() => setMobileOpen(false)}>Blogs</Link>
                 <Link href="/about" onClick={() => setMobileOpen(false)}>About</Link>
                 <Link href="/contact" onClick={() => setMobileOpen(false)}>Contact</Link>
               </nav>
