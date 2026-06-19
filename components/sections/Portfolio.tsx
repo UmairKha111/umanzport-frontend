@@ -48,10 +48,10 @@ export default function PortfolioPage() {
             Portfolio
           </p>
 
-          <h1 className="text-4xl md:text-6xl font-bold text-[#fd9c52] mt-4">
-            Selected Projects
+          <h1 className="text-4xl md:text-5xl font-extrabold text-black">
+              Selected <span className="text-[#fd9c52]">Projects</span>
           </h1>
-
+           
           <p className="max-w-2xl mx-auto text-gray-500 mt-5">
             Premium websites designed to help brands build trust,
             attract customers and establish a strong online presence.
