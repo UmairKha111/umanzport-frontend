@@ -94,6 +94,9 @@ export default function Navbar() {
               </AnimatePresence>
             </div>
 {/* portfolio */}
+             <Link href="/portfolio" className="nav-underline text-gray-800 hover:text-black">
+  Portfolio
+</Link>
             <Link href="/blog" className="nav-underline text-gray-800 hover:text-black">
               Blogs
             </Link>
@@ -171,6 +174,9 @@ export default function Navbar() {
                 </div>
 
                 {/* <Link href="/portfolio" onClick={() => setMobileOpen(false)}>Blogs</Link> */}
+                <Link href="/portfolio" onClick={() => setMobileOpen(false)}>
+  Portfolio
+</Link>
                 <Link href="/blog" onClick={() => setMobileOpen(false)}>Blogs</Link>
                 <Link href="/about" onClick={() => setMobileOpen(false)}>About</Link>
                 <Link href="/contact" onClick={() => setMobileOpen(false)}>Contact</Link>
